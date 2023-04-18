@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css"
+    />
+    <script type="text/javascript" src="script.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+          <a href="index.html"><h3>Tahsin Anjum Prova</h3></a>
+        </div>
+        <div class="navoptions">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="social">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://www.twitter.com/"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></a>
+        </div>
+      </nav>
+      <div class="cntcontent content">
+        <div class="left">
+          <div class="cntheading">
+            <h1>Get in Touch</h1>
+          </div>
+          <div class="para">
+            <p class="lightgrey">
+              I'm currently avaliable to take on new projects, so feel free to
+              send me a message about anything that you want to run past me. You
+              can contact anytime at 24/7
+            </p>
+          </div>
+          <div class="info">
+            <p>+880 1700000000</p>
+            <p>someone@gmail.com</p>
+            <p>Sylhet, Bangladesh</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="formcont">
+            <form onsubmit="contactValidate();" action="contact.html">
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                name="name"
+                id="cntname"
+              />
+              <input
+                type="email"
+                placeholder="Your Email"
+                name="email"
+                id="cntemail"
+              />
+              <textarea
+                name="dtltext"
+                id="dtltext"
+                cols="50"
+                rows="5"
+                placeholder="Write something..."
+              ></textarea>
+              <button class="btnblue" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
